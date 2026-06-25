@@ -1,0 +1,17 @@
+body{
+    background-color: white !important;
+}
+
+
+.listCategory h4{
+    margin-left: 1.5rem;
+
+}
+.listCategory ul{
+    list-style-type: none;
+}
+.listCategory a{
+    text-decoration: none;
+    color: black;
+   margin-bottom: 2rem;
+}

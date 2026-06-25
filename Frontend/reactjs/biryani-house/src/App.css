@@ -1,0 +1,47 @@
+.headingSec{
+  text-align: center;
+  text-shadow: 2px 2px 1px black;
+  color: orange;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
+  /* font-weight: bold; */
+  font-size:300%;
+}
+
+.paraHeading{
+  text-align: center;
+  margin-top: 7px;
+}
+.welcome-section {
+  padding: 80px 10%;
+  text-align: center;
+  background-color: #fff8f0;
+}
+
+.welcome-content h2 {
+  font-size: 2.5rem;
+  color: #ff5722;
+  margin-bottom: 20px;
+}
+
+.welcome-content p {
+  font-size: 1.1rem;
+  line-height: 1.8;
+  color: #555;
+  max-width: 800px;
+  margin: auto;
+}
+
+.explore-btn {
+  margin-top: 25px;
+  padding: 12px 25px;
+  border: none;
+  background: #ff5722;
+  color: white;
+  border-radius: 30px;
+  cursor: pointer;
+  font-size: 1rem;
+}
+
+.navbar a {
+  color: white;
+}

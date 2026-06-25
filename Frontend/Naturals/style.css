@@ -1,0 +1,293 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+} 
+
+body {
+    background-color: rgb(239, 247, 239) !important;
+    width: 100vw;
+    min-height: 100vh;   
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+}
+
+.customTopNav {
+    background-color: #09AE54;
+    color: white;
+    padding: 3px 0;
+    text-align: center;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.customNav2 {
+    background-color: white;
+    width: 100%;
+    height: 7rem;
+
+}
+
+.customGreenBTN {
+    background-color: #09AE54;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    padding: 5px;
+    display: flex;
+    width: 100px;
+    margin-left: 10px;
+}
+
+.customSearchBar {
+    background-color: rgb(225, 221, 221);
+    width: 450px;
+    border-radius: 2px;
+    border: none;
+    padding: 13px;
+    margin-left: 20rem;
+}
+
+.customLogo {
+    margin-left: 45px;
+}
+
+.customNav {
+    padding: 12px;
+    background-color: #212529;
+}
+
+.customNavLink {
+    margin-right: 35px;
+    color: white;
+    text-decoration: none;
+    font-size: 13.5px;
+}
+
+.customNavLink:hover {
+    color: #09AE54;
+}
+
+.customIframe {
+    margin-top: 2rem;
+    margin-left: 13.5rem;
+    width: 72%;
+    height: 11rem;
+    background-color: white;
+}
+
+.iFrame {
+    margin-top: 10rem;
+}
+
+.customIframe h1 {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: bold;
+}
+
+/* .customImg1{
+    display: flex;
+    margin: 4rem 3rem 1.5rem 2rem;
+    gap: 1.3rem;
+}
+.customImg2{
+    display: flex;
+    text-align: right;
+    margin: 1.5rem 3rem 2rem 2rem;
+    gap: 1.3rem;
+} */
+
+/* .image img{
+    border-radius: 3px;
+    cursor: pointer;
+    transition: transform 0.6s ease;
+}
+.image:hover img{
+    transform: scale(1.08) ;
+} */
+
+
+.image-box {
+    overflow: hidden;
+    border-radius: 3px;
+}
+
+.image-box img {
+    transition: transform 0.4s ease;
+    border-radius: 3px;
+}
+
+.image-box img:hover {
+    transform: scale(1.08);
+}
+
+.customDiv {
+    width: 100%;
+    height: 12rem;
+    padding-top: 6rem;
+}
+.customDiv h1{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: bold;
+}
+.buyBtn{
+    background-color: #09AE54;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    width: 50px;
+    height: 30px;
+    padding: 5px;
+    margin-left: 6rem;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: small;
+    /* font-weight: bold; */
+}
+
+.card-title{
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: bolder;
+    font-size: medium; 
+}
+
+.customcards{
+    width: 100%;
+    padding: 0 9rem 1rem 9rem;
+}
+.card{
+    overflow: hidden;
+}
+.card img{
+    transition: transform 0.4s ease;
+    border-radius: 3px;
+}
+.card img:hover {
+    transform: scale(1.1);
+}
+
+.logo-container {
+    /* text-align: center;
+    border: 3px solid #09AE54;
+    font-size: xx-large; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 300px;
+}
+.customL{
+     text-align: center;
+    border: 3px solid #09AE54;
+    font-size: xx-large;
+    overflow: hidden;
+}
+.customL {
+    transition: transform 0.5s ease;
+    border-radius: 3px;
+}
+.customL:hover {
+    transform: scale(0.8);
+}
+.customdiv{
+    width: 100%;
+    /* margin-right: 7rem;
+    margin-left: 5rem; */
+
+}
+.customDiv1 h1{
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: bold;
+    margin-right: 1rem;
+    padding-top: 1rem;
+    font-size: xx-large;
+}
+.customDiv1 p{
+    text-align: center;
+    font-weight: lighter;
+    font-size: 80;
+    margin: 1rem 4rem 1rem 0;
+    padding-left:  2rem;
+}
+.customDiv a{
+    text-decoration: none;
+    color: #09AE54;
+}
+
+.customSwiggy{
+    width: 100vw;
+    height: 40vh;
+    background-color: #09AE54;
+}
+.btnSw{
+    box-shadow: #212529;
+    text-align: center;
+    width: 150px;
+    padding: 10px;
+    background-color: black;
+    border-radius: 3px;
+    border: none;
+    color: white;
+}
+.swiggyH1{
+    padding-top: 1rem;
+    text-align: center;
+    color: white;
+    text-decoration: underline;
+    text-decoration-thickness: 1.5px; 
+    text-underline-offset: 10px;
+}
+.zomatoLogo{
+    justify-content: center;
+    display: flex;
+    padding-left: 3rem;
+}
+.zomatoLogo img{
+    width: 17rem;
+    height: 12rem;
+    padding-right: 5rem;
+    padding-bottom: 2rem;
+}
+
+
+.customFooter {
+    padding: 5rem;
+    color: white;
+    background-color: #212529;
+}
+
+.customFooter h5 {
+    padding-top: 3rem;
+    color: rgb(159, 155, 155);
+}
+
+.verticalLine {
+    height: 40vh;
+    border-left: 2px solid white;
+}
+.padd{
+    padding-inline-start: 4rem;
+    /* padding:0 3rem 1rem 3rem; */
+}
+
+.socialIcons{
+    margin-right: 20px;
+    margin-top: 4rem;
+    transition: transform 1s;
+
+}
+.socialIcons a{
+    font-size: 2rem;
+    background-color: rgb(70, 70, 70);
+    color: white;
+    border-radius: 50%;
+    padding: 7px;
+}
+.socialIcons a:hover{
+    background-color: rgb(255, 255, 255);
+    color: green;
+}
+.socialIcons:hover{
+    transform: translateY(-30px);
+
+}

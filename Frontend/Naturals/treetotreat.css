@@ -1,0 +1,22 @@
+.container{
+    display: flex;
+    justify-content: space-between;
+    gap: 50px;
+}
+
+.customPa{
+    padding: 3rem;
+    width: 150%;
+}
+.customPa p{
+    text-align: justify;
+    font-weight: lighter;
+}
+.customArt{
+     padding: 3rem;
+    width: 55%;
+}
+.customArt p{
+    text-align: justify;
+    font-weight: lighter;
+}

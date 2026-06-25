@@ -1,0 +1,173 @@
+body{
+    background-color: aliceblue;
+}
+h3{
+    padding: 10px;
+    text-align: center;
+    color: gray;
+}
+.container{
+    display: flex;
+    gap: 25px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+
+/* Iphone Button*/
+.btn {
+    background-color: gray;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    color: white;
+}
+
+.btnOrange:hover {
+    background-color: #e17c0f;
+}
+
+.btnDeepBlue:hover {
+    background-color: #020249;
+    color: white;
+}
+
+.btnSilver:hover {
+    background-color: silver;
+}
+
+/* .btnDeepBlue {
+            background-color: #020249;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 5px;
+            color: white;
+        }
+
+        .btnSilver {
+            background-color: silver;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 5px;
+            color: white;
+        } */
+
+.circle1 {
+    background-color: #e17c0f;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    margin-right: 10px;
+    cursor: pointer;
+    border: 1px solid gray;
+}
+
+/* Iphone circle */
+
+#orangeCircle {
+    background-color: #e17c0f;
+
+}
+
+#deepBlueCircle {
+    background-color: #020249;
+}
+
+#silverCircle {
+    background-color: silver;
+}
+
+/* Samsung circle*/
+#cobaltVoiletCir {
+    background-color: #6e596e;
+}
+
+#blackCir {
+    background-color: black;
+}
+#skyBlueCir {
+    background-color: skyblue;
+}
+#whiteCir {
+    background-color: white;
+}
+
+
+/* Samsung Button hover */
+.btncobaltVoilet:hover {
+    background-color: #6e596e;
+    color: white;
+}
+.btnSamBlack:hover {
+    background-color: black;
+    color: white;
+}
+.btnSamSilver:hover {
+    background-color: silver;
+    color: white;
+}
+.btnSamWhite:hover {
+    background-color: white;
+    color: gray;
+}
+.btnSamPink:hover {
+    background-color: pink;
+    color: white;
+}
+.btnSamBlue:hover {
+    background-color: skyblue;
+    color: white;
+}
+
+/* Google Phone */
+#obsidianCir{
+    background-color: #140a28;
+}
+#jadeCir{
+    background-color: #e3f4e0;
+}
+#moonStoneCir{
+    background-color: #246a7a;
+}
+.btnObsidian:hover{
+    background-color: #140a28;
+    color: white;
+}
+.btnJade:hover{
+    background-color: #9ab695;
+    color: black;
+}
+.btnMoon:hover{
+    background-color: #246a7a;
+    color: white;
+}
+
+/* Nothing Phone */
+#GwhiteCir{
+    background-color: white;
+}
+#GpinkCir{
+    background-color: pink;
+}
+#GblueCir{
+    background-color: blue;
+}
+#GblackCir{
+    background-color: black;
+}
+.btnWhite:hover{
+    background-color: white;
+    color: black;
+}
+.btnPink:hover{
+    background-color: pink;
+    color: black;
+}
+.btnBlue:hover{
+    background-color: blue;
+    color: white;
+}
+.btnBlack:hover{
+    background-color: black;
+    color: white;
+}
