@@ -15,7 +15,7 @@ const ToDos = () => {
 
     return (
         <>
-            <div>ToDos</div>
+            <h1 className='ms-5 mt-5'>ToDos</h1>
             <ul>
                 {
                     todos.map((td, i) => (
