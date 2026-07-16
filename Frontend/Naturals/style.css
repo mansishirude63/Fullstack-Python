@@ -78,6 +78,9 @@ body {
 
 .iFrame {
     margin-top: 10rem;
+    width: 100%;
+    max-width: 1101px;
+    height: 500px;
 }
 
 .customIframe h1 {
